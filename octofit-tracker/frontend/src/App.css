@@ -1,0 +1,263 @@
+/* Global Styles */
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-attachment: fixed;
+}
+
+/* Navbar Styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: rgba(255,255,255,0.9) !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  margin: 0 5px;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+  transform: translateY(-2px);
+}
+
+/* Container Styles */
+.container {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+  color: #667eea;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.display-4 {
+  color: #667eea;
+  font-weight: 800;
+}
+
+.lead {
+  color: #555;
+}
+
+/* Table Styles */
+.table {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.table thead th {
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  padding: 15px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(102, 126, 234, 0.05);
+}
+
+.table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(102, 126, 234, 0.1);
+  transform: scale(1.01);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.table td {
+  vertical-align: middle;
+  padding: 12px 15px;
+  color: #333;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+  background: white;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  color: #667eea;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Button Styles */
+.btn {
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+  border: none;
+}
+
+.btn-danger {
+  background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+  border: none;
+}
+
+/* Link Styles */
+a {
+  color: #667eea;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #764ba2;
+  text-decoration: none;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  border-radius: 15px;
+  padding: 40px;
+  margin-bottom: 30px;
+  border: 2px solid rgba(102, 126, 234, 0.2);
+}
+
+/* Loading and Error States */
+.text-danger {
+  color: #eb3349 !important;
+  font-weight: 600;
+}
+
+.text-muted {
+  color: #888 !important;
+}
+
+/* Form Styles */
+.form-control {
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.form-label {
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Modal Styles */
+.modal-content {
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 15px 15px 0 0;
+}
+
+.modal-title {
+  color: white;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+  
+  .navbar-brand img {
+    height: 30px;
+  }
+  
+  .table {
+    font-size: 0.85rem;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  animation: fadeIn 0.5s ease-in;
+}
